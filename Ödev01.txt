@@ -1,0 +1,20 @@
+Phyton'da Veri Tipleri
+
+1-Sayılar (Numbers): Python'da üç farklı sayı tipi bulunur: tam sayılar (int), kesirli sayılar(float) ve karmaşık sayılar (complex).
+2-Diziler (Lists): Listenin her bir elemanı virgülle ayrılacak şekilde tanımlanır ve köşeli parantez içinde yazılır. Dizilerde farklı veri tipleri bir arada kullanılabilir. Java'daki Array Listler gibi.# Demetler (Tuples): Demetler, elemanları değiştirilemeyen bir listtir. 
+3-Demetler(Tuple), normal parantez içinde virgülle ayrılmış elemanlarla tanımlanır. Javadaki Arraylere benzerler.# Sözlükler (Dictionaries): 
+4-Sözlükler(Dictinory), key-value çiftleri kullanarak elemanları depolayan bir veri tipidir. 
+5-Sözlükler süslü parantez içinde tanımlanır. Java'daki MAP ile benzerdir.
+6-Kümeler (Sets): Kümeler, tekil elemanlardan oluşan bir veri tipidir. Kümeler süslü parantez içinde tanımlanır. Yani tekrarsız bir Array List gibi düşünülebilir.
+7-Karakter Dizileri (Strings): Karakter dizileri, bir veya daha fazla karakterden oluşan bir veri tipidir. Karakter dizileri tırnak işaretleri arasında yazılır.
+8-Boolean (Mantıksal Değerler): Boolean, yalnızca True (doğru) veya False (yanlış) olabilen bir veri tipidir.
+
+Ana sayfada Kategori: Tümü List'e, Başlık kısımları Stringe örnek verilebilir. 
+tamamlanan = 78
+if tamamlanan < 50:
+    print("Kurs tamamlanmadi")
+elif tamamlanan == 50:
+    print("Kursun yarisi tamamlandi")
+elif tamamlanan < 100:
+    print("Kurs tamamlanmak uzere")
+else: print("Kurs tamamlandi")
